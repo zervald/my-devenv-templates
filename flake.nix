@@ -4,7 +4,6 @@
   outputs =
     { self }:
     {
-
       templates = {
         simple = {
           path = ./simple;
@@ -19,6 +18,10 @@
           # '';
         };
 
+        direnv = {
+          path = ./direnv;
+          description = "Template for a .envrc file using direnv";
+        };
       };
 
       defaultTemplate = self.templates.simple;

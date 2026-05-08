@@ -11,13 +11,13 @@
           description = "Simple default template";
         };
 
-        # architecture-ordinateurs = {
-        #   path = ./architecture-ordinateurs;
-        #   description = "Template for INF4170 tools";
-        #   # welcomeText = ''
-        #   #   - Run `nix develop`
-        #   # '';
-        # };
+        architecture-ordinateurs = {
+          path = ./architecture-ordinateurs;
+          description = "Template for INF4170 tools";
+          # welcomeText = ''
+          #   - Run `nix develop`
+          # '';
+        };
 
       };
 

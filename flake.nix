@@ -22,6 +22,11 @@
           path = ./direnv;
           description = "Template for a .envrc file using direnv";
         };
+
+        ocaml = {
+          path = ./ocaml;
+          description = "Template for LTS OCaml development";
+        };
       };
 
       defaultTemplate = self.templates.simple;

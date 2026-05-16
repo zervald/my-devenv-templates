@@ -27,6 +27,11 @@
           path = ./ocaml;
           description = "Template for LTS OCaml development";
         };
+
+        vm = {
+          path = ./vm;
+          description = "Template for nixos vm using nixos-shell";
+        };
       };
 
       defaultTemplate = self.templates.simple;
